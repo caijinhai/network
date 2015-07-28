@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.header1 {
+ 	background-attachment:fixed;
+ 	-webkit-background-size:100% 100%;
+ 	-moz-background-size:100% 100%;
+ 	-o-background-size:100% 100%;
+ 	z-index: 10;   
+ 	position:relative;
+ 	zoom:1;
+}
+.top1 ,.top2{
+	position:absolute;
+	width:100%;
+	height:100%;
+	bottom:0;
+	left: 0;
+	background: -webkit-linear-gradient(top,#000,rgba(0,0,0,0) 85%);
+}
+.top2{
+	background:#A9A8A8;
+	opacity:.8;
+	filter:alpha(opacity=80);
+}
+.m-about{width:80%;margin:0 auto;padding:70px 0 0;text-align:center;position:relative;zoom:1;}
+.playerd{width:180px;height:180px;border-radius:100px;position: relative;}
+
+.rotate{
+	animation:pic 15s linear infinite;
+	-webkit-animation:pic 15s linear infinite;
+	-moz-animation:pic 15s linear infinite;-
+	ms-animation:pic 15s linear infinite;
+	-o-animation:pic 15s linear infinite;
+}@-webkit-keyframes pic{from{-webkit-transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);}}
+@-moz-keyframes pic{from{-moz-transform:rotate(0deg);}to{-moz-transform:rotate(360deg);}}
+@-ms-keyframes pic{from{-ms-transform:rotate(0deg);}to{-ms-transform:rotate(360deg);}}
+@-o-keyframes pic{from{-o-transform:rotate(0deg);}to{-o-transform:rotate(360deg);}}
+@keyframes pic{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg);}}
+#pic{position: absolute;width:180px;height:180px;border-radius:50%;}
+#pic img{width:180px;height:180px;border-radius:50%;}
+#logo{width:180px;height:180px;margin:0 auto 15px;}
+#logo  #jp_container{
+	width:0px!important;position: absolute;left: 41.5px;top: 41.5px;
+	padding: 0!important;}
+#logo  #jp_container .jp-play{
+	background: url(/Uploads/Image/logoplayer2.png) no-repeat;
+	margin: 25px;top: 50%;left: 50%;width:45px;height:45px;
+	cursor:pointer;
+	position:absolute;}
+#logo  #jp_container .jp-pause{
+	background:none;margin: 25px;top: 50%;left: 50%;width:45px;height:45px;
+	cursor:pointer;
+	position:absolute;}
+#logo  #jp_container .jp-pause:hover{
+	background:url(/Uploads/Image/logoplayer.png) no-repeat;}
+body{
+	font-family: Hiragino Sans GB,微软雅黑,黑体,Arial,sans-serif;
+	font-size: 13px;color:#666;line-height:1.5;background-color: #eeeded;}
+a {
+  	color: #666;
+	text-decoration: none;
+}
+div{
+	display:block;
+}
+.tit1{
+	position:relative;
+	width:100%;
+	height:30px;
+	padding-bottom:10px; 
+}
+.tit2{
+	position:relative;
+	width:100%;
+	font-size: 20px;
+	padding-bottom:10px;
+
+}

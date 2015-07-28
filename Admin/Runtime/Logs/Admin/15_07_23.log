@@ -1,0 +1,6 @@
+[ 2015-07-23T23:15:48+08:00 ] 127.0.0.1 /admin.php/Admin/Index/
+ERR: 无法加载控制器:Index
+
+[ 2015-07-23T23:25:17+08:00 ] 127.0.0.1 /admin.php/Admin/Index/
+ERR: 无法加载控制器:Index
+
