@@ -1,4 +1,4 @@
-<html xmlns="https://www.w3.org/1999/xhtml">
+<?php if (!defined('THINK_PATH')) exit();?><html xmlns="https://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -60,9 +60,9 @@
 	</div>
 	<audio id="myaudio" src="/Uploads/Music/2651369.m4a"  hidden="true"></audio>
 	<div class="row " style="text-align:center" >
-		<div class="col-sm-offset-4 col-md-1 text-center"><a  href="__URL__">首页</a></div>
-		<div class="col-md-1 text-center"><a  class="visited" href="__URL__/about">关于我</a></div>
-		<div class="col-md-1 text-center"><a href="__URL__/liuyan">留言</a></div>
+		<div class="col-sm-offset-4 col-md-1 text-center"><a  href="/Home/Index">首页</a></div>
+		<div class="col-md-1 text-center"><a  class="visited" href="/Home/Index/about">关于我</a></div>
+		<div class="col-md-1 text-center"><a href="/Home/Index/liuyan">留言</a></div>
 		<div class="col-md-1 text-center">
 			<a href="https://github.com/caijinhai">Github</a>
 		</div>
@@ -119,5 +119,3 @@ word:         菜鸟不可怕，可怕的是永远是菜鸟
 	</div>
 </body>
 </html>
-
-
